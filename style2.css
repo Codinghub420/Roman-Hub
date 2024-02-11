@@ -1,0 +1,158 @@
+html,body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.main{
+    height:300px;
+    width:450px;
+    background-color:#BED1CF;
+    border-radius: 20px;
+}
+.input{
+    margin-left:80px;
+    margin-top:20px;
+    background-color:transparent;
+    border-width: 1px;
+    height: 25px;
+    border-radius: 7px;
+    border-color:#E78895;
+    color:#FFE4C9;
+    font-size: 14px;
+    font-weight: bolder;
+    text-transform: capitalize;
+    white-space: nowrap;
+    text-align: center;
+}
+h2{
+    color: #E78895;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 40px;
+}
+button{
+    background-color: #e78895bd;
+    border-color:transparent;
+    border-radius: 10px;
+    margin-top:-90px;
+    margin-bottom: 20px;
+    margin-left: 180px;
+    height:40px;
+    font-size: 15px;
+    
+    font-weight: bolder;
+    color:#FFE4C9;
+    position: relative;
+    left:20px;
+    top:70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+}
+.label{
+    margin-left: 36px;
+    font-size: 17px;
+    font-weight: bolder;
+    color:#E78895;
+    margin-top: 30px;
+}
+.result{
+    height:25px;
+    border:1px solid #E78895;
+    border-radius: 7px;
+    position: relative;
+    left:250px;
+    bottom:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 190px;
+    text-align: center;
+}
+#result{
+    font-size: 17px;
+    color:#E78895;
+    position: relative;
+    text-align: center;
+    position: relative;
+    left:-48px;
+    top:2px;
+    text-transform:capitalize;
+
+}
+@media (max-width: 600px) {
+    .main {
+        height: 290px;
+        width: 360px;
+    }
+    h2 {
+        position: relative;
+        bottom: 25px;
+        font-size: 21px;
+    }
+    .label {
+        margin-left: 30px;
+    }
+    .input {
+        width: 70px;
+        margin-right:5px;
+        margin-left: 67px;
+    }
+    .result {
+        width: 100px;
+        margin-left: -20px;
+        width:77px;
+    }
+    #result {
+        font-size: 12px;
+        margin-left: 100px;
+    }
+    button {
+        position: relative;
+        bottom: 10px;
+        top: 50px;
+        left: -23px;
+    }
+}
+@media (min-width: 601px) and (max-width: 768px) {
+    .main {
+        height: 320px;
+        width: 400px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    .label {
+        font-size: 16px;
+        margin-left: 34px;
+    }
+    .input {
+        width: 90px;
+        margin-right: 15px;
+    }
+    .result {
+        width: 120px;
+        margin-left:-10px;
+        width:97px;
+
+    }
+    #result {
+        font-size: 12px;
+        text-align: center;
+        text-transform:uppercase;
+        margin-left:110px;
+
+    }
+    button {
+        position: relative;
+        bottom: 15px;
+        top: 60px;
+        left: -28px;
+    }
+}

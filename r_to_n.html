@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number to roman numerals</title>
+    <link rel="stylesheet"href="style1.css">
+</head>
+<body>
+    <div class="main">
+        <h2>Converter Roman numerals into Number</h2>
+        <label for="num" class="label">Enter the Roman.</label>
+        <input class="input" id="num" type="text" oninput="convert(this.value)" onchange="convert(this.value)">
+        <br>
+        <p class="label">The result is here</p>
+        <div class="result">
+            <p id="result" class="input"></p>
+        </div>
+        <br>
+        <button onclick="reset()">Reset</button>
+    </div>
+    <script src="script1.js">
+       
+    </script>
+</body>
+</html>
+
